@@ -1,4 +1,5 @@
 {
+  "homepage": "https://justkooker.github.io/Qubiq_test",
   "name": "qubiq-test",
   "version": "1.0.0",
   "description": "Backyard",
@@ -7,7 +8,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "embla-carousel-autoplay": "^8.6.0",
@@ -18,6 +21,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.3",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "vite": "^4.4.5"

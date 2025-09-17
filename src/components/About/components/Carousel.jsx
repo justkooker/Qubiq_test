@@ -69,7 +69,7 @@ const Carousel = () => {
 
   return (
     <div className="relative pb-10">
-      <div className="overflow-x-hidden" ref={emblaRef}>
+      <div className="overflow-x-hidden xl:pr-12" ref={emblaRef}>
         <ul className="flex items-start w-full gap-6">
           {items.map((item) => {
             return (
