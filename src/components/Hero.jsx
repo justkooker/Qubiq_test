@@ -2,6 +2,7 @@ import React from "react";
 
 import heroImage from "../assets/logo.svg";
 import arrowRight from "../assets/arrow-right.svg";
+
 const Hero = () => {
   return (
     <section className="mb-[67px] md:mb-[119px] 2xl:mb-[146px] xl:pb-[25.5px]">
@@ -19,7 +20,7 @@ const Hero = () => {
             </span>
             liquidity
           </h1>
-          <h3 className="font-gilroy-semibold font-normal  text-xl md:text-base 2xl:text-2xl text-[#26262655] leading-[140%] md:leading-[100%] mb-10 md:mb-8 xl:mb-[70px]">
+          <h3 className="font-gilroy-semibold font-normal text-xl md:text-base 2xl:text-2xl text-[#26262655] leading-[140%] md:leading-[100%] mb-10 md:mb-8 xl:mb-[70px]">
             Keep your yield working for you — we keep your liquidity accessible
           </h3>
           <div className="flex items-center gap-5">

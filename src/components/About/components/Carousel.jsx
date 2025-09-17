@@ -1,6 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
 
 import aboutImg_1 from "/src/assets/about-1.webp";
 import aboutImg_2 from "/src/assets/about-2.webp";
