@@ -6,7 +6,7 @@ import closeIcon from "../assets/close-burger-icon.svg";
 const BurgerButton = ({ toggleMenu, isMenuOpen }) => {
   return (
     <button
-      className="flex items-center justify-center w-10 h-10 bg-[#F6F7F8] border border-[#DEDEE37345] rounded-xl cursor-pointer md:hidden"
+      className={`flex items-center justify-center w-10 h-10 ${isMenuOpen ? 'bg-[#E8E9ED]' : '#F6F7F8'}  border border-[#DEDEE37345] rounded-xl cursor-pointer md:hidden`}
       onClick={toggleMenu}
     >
       {isMenuOpen ? (
